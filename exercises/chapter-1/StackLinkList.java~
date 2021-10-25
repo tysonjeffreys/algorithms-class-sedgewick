@@ -1,0 +1,54 @@
+public class StackLinkList<Item>
+{
+    Node first;
+    Item item;
+    private int n = 0;
+
+
+    public Node
+    {
+        Item item;
+	Node next;
+	
+    }
+
+    public boolean isEmpty()
+    {
+	return n == 0;
+    }
+    
+    public void push(Item item)
+    {
+	Node oldfirst = first;
+	Node first = new Node();
+	first.next = oldfirst;
+	first.item = item;
+	n++;
+    }
+
+    public Item pop()
+    {
+	item = first.item;
+	first = first.next;
+	
+	return item;
+    }
+	
+    
+
+
+
+    public static void main(String[] args)
+    {
+
+	StackLinkList<String> stack = new StackLinkList<>();
+	stack.push("Ground control");
+
+
+	
+    }
+
+
+
+
+}

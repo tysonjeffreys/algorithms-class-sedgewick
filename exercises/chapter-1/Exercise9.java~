@@ -1,0 +1,23 @@
+import edu.princeton.cs.elgs4.*;
+
+
+
+public class Exercise9
+{
+    private static String getInfixExpression(String input)
+    {
+	String[] s = input.split(" ");
+
+    }
+
+
+
+
+    public static void main(String[] args)
+    {
+	Exercise9 e = new Exercise9();
+	//StdOut.println(s[1]);
+
+
+
+}

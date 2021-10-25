@@ -1,0 +1,30 @@
+import edu.princeton.cs.algs4.*;
+
+
+
+public class ResizingArrayQueueOfStringsResizingArrayQueueOfStrings
+{
+
+    String[] a = new String[100];
+    int n = 0;
+    public String enque(String item)
+    {
+	a[n++] = item;
+	n++;
+	StdOut.println(a[0]);
+    }
+		      
+
+
+
+    public static void main(String[] args)
+    {
+	
+	ResizingArrayQueueOfStrings newQueue = new ResizingArrayOfStrings();
+	newQueue.enque("elesium");
+	
+	
+
+    }
+
+}
